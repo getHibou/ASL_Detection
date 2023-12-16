@@ -36,5 +36,5 @@ Instale as bibliotecas necessárias utilizando:
 3. Execute o aplicativo usando o comando: `python detection_v3.py`
 4. Abra o navegador que o código irá disponibilizar e acesse para visualizar o aplicação.
 
-## Recomendações
-Dado o problema na questão do dataset, o melhor modelo que é o terceiro, mesmo usando Data Augmentation, ficar muito difícil de detectar por conta que o sinal precisa ser igual ou muito paraceido ao que é o dataset. Em trabalhos futuros, recomenda-se um sistema de coleta volutário de sinais afim de ter um grande dataset com uma variedade de dados e tonalidades diferentes, pode ser feito usando IA Generativa também.
+## Recomendações e Observações
+Dado o problema na questão do dataset, o melhor modelo que é o terceiro, mesmo usando Data Augmentation, ficar muito difícil de detectar por conta que o sinal precisa ser igual ou muito paraceido ao que é o dataset. Em trabalhos futuros, recomenda-se um sistema de coleta volutário de sinais afim de ter um grande dataset com uma variedade de dados e tonalidades diferentes, pode ser feito usando IA Generativa também. Devido a limitações de upload de arquivo do Github, o segundo modelo não pode ser upado, o tamanho dele excede o permitido pela plataforma, aqueles que quiserem o segundo modelo para o teste, façam um merge em alguma coisa do código que irei enviar o segundo modelo.
