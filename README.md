@@ -47,4 +47,5 @@ Sobre os testes, pela dificuldade na precisão, o que se notou é que tendo um f
   <img src="Imagens_Testes/LetraL.png" alt="Letra L" width="300"/>
   <img src="Imagens_Testes/LetraV.png" alt="Letra V" width="300"/>
   <img src="Imagens_Testes/LetraC.png" alt="Letra C" width="300"/>
+  <img src="Imagens_Testes/LetraT.png" alt="Letra C" width="300"/>
 </div>
