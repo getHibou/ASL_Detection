@@ -38,3 +38,13 @@ Instale as bibliotecas necessárias utilizando:
 
 ## Recomendações e Observações
 Dado o problema na questão do dataset, o melhor modelo que é o terceiro, mesmo usando Data Augmentation, ficar muito difícil de detectar por conta que o sinal precisa ser igual ou muito paraceido ao que é o dataset. Em trabalhos futuros, recomenda-se um sistema de coleta volutário de sinais afim de ter um grande dataset com uma variedade de dados e tonalidades diferentes, pode ser feito usando IA Generativa também. Devido a limitações de upload de arquivo do Github, o segundo modelo não pode ser upado, o tamanho dele excede o permitido pela plataforma, aqueles que quiserem o segundo modelo para o teste, façam um merge em alguma coisa do código que irei enviar o segundo modelo.
+
+Sobre os testes, pela dificuldade na precisão, o que se notou é que tendo um fundo branco e de boa luminosidade, a detecção melhora, qualquer outro cenário é péssimo para o modelo.
+
+## Imagens de Testes feitos
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="Imagens_Testes/LetraL.png" alt="Letra L" width="300"/>
+  <img src="Imagens_Testes/LetraV.png" alt="Letra V" width="300"/>
+  <img src="Imagens_Testes/LetraC.png" alt="Letra C" width="300"/>
+</div>
