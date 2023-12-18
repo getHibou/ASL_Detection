@@ -6,8 +6,8 @@ Este repositório contém o código e os recursos necessários ao projeto de Vis
 
 O objetivo deste projeto é desenvolver um sistema de detecção e reconhecimento de linguagem de sinais em tempo real utilizando técnicas de visão computacional. Três modelos foram treinados utilizando datasets disponíveis no Kaggle:
 
-1. [ASL Alphabet Test Dataset](https://www.kaggle.com/datasets/danrasband/asl-alphabet-test)
-2. [ASL Alphabet Dataset](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+1. [ASL Alphabet Dataset](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+2. [ASL Alphabet Test Dataset](https://www.kaggle.com/datasets/danrasband/asl-alphabet-test)
 3. [Sign Language MNIST Dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
 
 O código `detection_v3.py` representa a versão mais avançada do modelo de detecção, treinado com o terceiro dataset. O `detection_v1.py` e `detection_v2.py` são versões de teste, uma com ROI padrão mas que abrange o fundo e outra que faz uso da movimentação do dedo indicador, nesses dois códigos foram usados os outros dois modelos treinado. No primeiro modelo, que é usado o segundo dataset, os dados de teste são tão poucos que a acurácia final despenca, já no segundo modelo, tentei uma abordagem diferente, usar um terceiro dataset inteiro só para testes, que nesse caso é o primeiro dataset, ainda usei data augmentation para ter resultados melhores, infelizmente, não obtive sucesso. 
